@@ -104,7 +104,7 @@ void astrocde_home_state::astrohome_palette(palette_device &palette) const
 	    luminance bits.  UV1 supplies VIDEO, R-Y and B-Y signals to the
 	    television encoder, unlike the arcade hardware's direct RGB output.
 
-	    Ryland's astrocade_measured_palette 2026-09-24 RF Modulator
+	    Ryland's astrocade_measured_palette 2026-09-24 composite
 		https://groups.io/g/ballyalley/topic/fix_for_7618_astrocde_and/121154924
 	*/	
 	static constexpr rgb_t colors[32][8] =
